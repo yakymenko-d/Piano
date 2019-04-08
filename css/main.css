@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #100E17;
+}
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 64px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #898989;
+	text-align: center;
+	font-size: 32px;
+}
+.piano{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.keys{
+	display: flex;
+	position: relative;
+}
+.white-key{
+	height: 400px;
+	width: 100px;
+	border-radius: 0 0 15px 15px;
+	border: 4px solid #101010;
+	margin-left: -4px;
+	cursor: pointer;
+	outline: none;
+	background: white;
+	vertical-align: bottom;
+	padding-top: 290px;
+	font-weight: bold;
+}
+.white-key.active {
+	background-color: #C0C0C0;
+}
+.black-key{
+	height: 260px;
+	width: 60px;
+	background-color: black;
+	position: absolute;
+	background-image: linear-gradient(#000000, #303030);
+	border: 3px solid black;
+	border-radius: 0 0 3px 3px;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	padding-top: 190px;
+}
+.black-key.active {
+	background-image: linear-gradient(#000000, #101010);
+}
+.Db4-key{
+	left: 65px;
+}
+.Eb4-key{
+	left: 160px;
+}
+.Gb4-key{
+	left: 352px;
+}
+.Ab4-key{
+	left: 448px;
+}
+.Bb4-key{
+	left: 545px;
+}.Db5-key{
+	left: 735px;
+}
+.Eb5-key{
+	left: 832px;
+}
